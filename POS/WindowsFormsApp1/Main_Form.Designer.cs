@@ -193,7 +193,7 @@
             this.groupBox_order.TabIndex = 2;
             this.groupBox_order.TabStop = false;
             this.groupBox_order.Text = "주문 관리";
-            this.groupBox_order.Visible = false;
+            this.groupBox_order.Visible = true;
             // 
             // textBox_dessertsum
             // 
@@ -1617,4 +1617,3 @@
         private System.Windows.Forms.Button button2;
     }
 }
-
