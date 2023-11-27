@@ -97,6 +97,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -110,6 +111,81 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\아아.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\아메리카노핫.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카라멜마끼야또.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카라멜마끼야또핫.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카페라떼.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카페라떼핫.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카페모카.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카페모카핫.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카푸치노.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\카푸치노핫.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\머핀.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\브라우니.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\초코케익.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\치즈케익.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\티라미슈.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\와플.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\베이글.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\브으라우니.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\와플3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\와플31.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\와플32.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\와플33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ㅇ퓨.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dfdf.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\와프르를.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

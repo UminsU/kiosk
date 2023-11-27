@@ -184,7 +184,8 @@
             this.groupBox_order.Size = new System.Drawing.Size(630, 482);
             this.groupBox_order.TabIndex = 2;
             this.groupBox_order.TabStop = false;
-            this.groupBox_order.Text = "주문 관리";
+            this.groupBox_order.Text = "주문 목록";
+            this.groupBox_order.Enter += new System.EventHandler(this.groupBox_order_Enter);
             // 
             // button2
             // 
@@ -287,12 +288,14 @@
             this.button_Americanoh.BackColor = System.Drawing.Color.Gray;
             this.button_Americanoh.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Americanoh.ForeColor = System.Drawing.Color.White;
-            this.button_Americanoh.Location = new System.Drawing.Point(5, 4);
+            this.button_Americanoh.Image = global::WindowsFormsApp1.Properties.Resources.아메리카노핫;
+            this.button_Americanoh.Location = new System.Drawing.Point(5, 7);
             this.button_Americanoh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Americanoh.Name = "button_Americanoh";
             this.button_Americanoh.Size = new System.Drawing.Size(95, 80);
             this.button_Americanoh.TabIndex = 0;
             this.button_Americanoh.Text = "아메리카노\r\n(HOT)";
+            this.button_Americanoh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Americanoh.UseVisualStyleBackColor = false;
             this.button_Americanoh.Click += new System.EventHandler(this.button_Americano_Click);
             // 
@@ -301,12 +304,14 @@
             this.button_Americanoi.BackColor = System.Drawing.Color.Gray;
             this.button_Americanoi.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Americanoi.ForeColor = System.Drawing.Color.White;
+            this.button_Americanoi.Image = global::WindowsFormsApp1.Properties.Resources.아아;
             this.button_Americanoi.Location = new System.Drawing.Point(6, 185);
             this.button_Americanoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Americanoi.Name = "button_Americanoi";
             this.button_Americanoi.Size = new System.Drawing.Size(95, 80);
             this.button_Americanoi.TabIndex = 0;
             this.button_Americanoi.Text = "아메리카노\r\n(ICE)\r\n";
+            this.button_Americanoi.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Americanoi.UseVisualStyleBackColor = false;
             this.button_Americanoi.Click += new System.EventHandler(this.button_Americanoi_Click);
             // 
@@ -315,12 +320,14 @@
             this.button_CafeMochai.BackColor = System.Drawing.Color.Gray;
             this.button_CafeMochai.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_CafeMochai.ForeColor = System.Drawing.Color.White;
+            this.button_CafeMochai.Image = global::WindowsFormsApp1.Properties.Resources.카페모카;
             this.button_CafeMochai.Location = new System.Drawing.Point(5, 270);
             this.button_CafeMochai.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_CafeMochai.Name = "button_CafeMochai";
             this.button_CafeMochai.Size = new System.Drawing.Size(95, 80);
             this.button_CafeMochai.TabIndex = 0;
             this.button_CafeMochai.Text = "카페모카\r\n(ICE)\r\n";
+            this.button_CafeMochai.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_CafeMochai.UseVisualStyleBackColor = false;
             this.button_CafeMochai.Click += new System.EventHandler(this.button_CafeMochai_Click);
             // 
@@ -329,12 +336,14 @@
             this.button_Cappuccinoh.BackColor = System.Drawing.Color.Gray;
             this.button_Cappuccinoh.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Cappuccinoh.ForeColor = System.Drawing.Color.White;
-            this.button_Cappuccinoh.Location = new System.Drawing.Point(211, 4);
+            this.button_Cappuccinoh.Image = global::WindowsFormsApp1.Properties.Resources.카푸치노핫;
+            this.button_Cappuccinoh.Location = new System.Drawing.Point(211, 7);
             this.button_Cappuccinoh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Cappuccinoh.Name = "button_Cappuccinoh";
             this.button_Cappuccinoh.Size = new System.Drawing.Size(95, 80);
             this.button_Cappuccinoh.TabIndex = 0;
             this.button_Cappuccinoh.Text = "카푸치노\r\n(HOT)";
+            this.button_Cappuccinoh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Cappuccinoh.UseVisualStyleBackColor = false;
             this.button_Cappuccinoh.Click += new System.EventHandler(this.button_Cappuccinoh_Click);
             // 
@@ -343,12 +352,14 @@
             this.button_CafeMochah.BackColor = System.Drawing.Color.Gray;
             this.button_CafeMochah.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_CafeMochah.ForeColor = System.Drawing.Color.White;
+            this.button_CafeMochah.Image = global::WindowsFormsApp1.Properties.Resources.카페모카핫;
             this.button_CafeMochah.Location = new System.Drawing.Point(5, 95);
             this.button_CafeMochah.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_CafeMochah.Name = "button_CafeMochah";
             this.button_CafeMochah.Size = new System.Drawing.Size(95, 80);
             this.button_CafeMochah.TabIndex = 0;
             this.button_CafeMochah.Text = "카페모카\r\n(HOT)";
+            this.button_CafeMochah.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_CafeMochah.UseVisualStyleBackColor = false;
             this.button_CafeMochah.Click += new System.EventHandler(this.button_CafeMochah_Click);
             // 
@@ -357,12 +368,14 @@
             this.button_Cappuccinoi.BackColor = System.Drawing.Color.Gray;
             this.button_Cappuccinoi.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Cappuccinoi.ForeColor = System.Drawing.Color.White;
+            this.button_Cappuccinoi.Image = global::WindowsFormsApp1.Properties.Resources.카푸치노;
             this.button_Cappuccinoi.Location = new System.Drawing.Point(212, 185);
             this.button_Cappuccinoi.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Cappuccinoi.Name = "button_Cappuccinoi";
             this.button_Cappuccinoi.Size = new System.Drawing.Size(95, 80);
             this.button_Cappuccinoi.TabIndex = 0;
             this.button_Cappuccinoi.Text = "카푸치노\r\n(ICE)\r\n";
+            this.button_Cappuccinoi.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Cappuccinoi.UseVisualStyleBackColor = false;
             this.button_Cappuccinoi.Click += new System.EventHandler(this.button_Cappuccinoi_Click);
             // 
@@ -371,12 +384,14 @@
             this.button_carameli.BackColor = System.Drawing.Color.Gray;
             this.button_carameli.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_carameli.ForeColor = System.Drawing.Color.White;
+            this.button_carameli.Image = global::WindowsFormsApp1.Properties.Resources.카라멜마끼야또;
             this.button_carameli.Location = new System.Drawing.Point(108, 270);
             this.button_carameli.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_carameli.Name = "button_carameli";
             this.button_carameli.Size = new System.Drawing.Size(95, 80);
             this.button_carameli.TabIndex = 0;
             this.button_carameli.Text = "카라멜\r\n마끼아또\r\n(ICE)";
+            this.button_carameli.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_carameli.UseVisualStyleBackColor = false;
             this.button_carameli.Click += new System.EventHandler(this.button_carameli_Click);
             // 
@@ -385,12 +400,14 @@
             this.button_Cafelatteh.BackColor = System.Drawing.Color.Gray;
             this.button_Cafelatteh.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Cafelatteh.ForeColor = System.Drawing.Color.White;
-            this.button_Cafelatteh.Location = new System.Drawing.Point(108, 4);
+            this.button_Cafelatteh.Image = global::WindowsFormsApp1.Properties.Resources.카페라떼핫;
+            this.button_Cafelatteh.Location = new System.Drawing.Point(108, 7);
             this.button_Cafelatteh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Cafelatteh.Name = "button_Cafelatteh";
             this.button_Cafelatteh.Size = new System.Drawing.Size(95, 80);
             this.button_Cafelatteh.TabIndex = 0;
             this.button_Cafelatteh.Text = "카페라떼\r\n(HOT)";
+            this.button_Cafelatteh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Cafelatteh.UseVisualStyleBackColor = false;
             this.button_Cafelatteh.Click += new System.EventHandler(this.button_Cafelatteh_Click);
             // 
@@ -399,12 +416,14 @@
             this.button_caramelh.BackColor = System.Drawing.Color.Gray;
             this.button_caramelh.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_caramelh.ForeColor = System.Drawing.Color.White;
+            this.button_caramelh.Image = global::WindowsFormsApp1.Properties.Resources.카라멜마끼야또핫;
             this.button_caramelh.Location = new System.Drawing.Point(108, 95);
             this.button_caramelh.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_caramelh.Name = "button_caramelh";
             this.button_caramelh.Size = new System.Drawing.Size(95, 80);
             this.button_caramelh.TabIndex = 0;
             this.button_caramelh.Text = "카라멜\r\n마끼아또\r\n(HOT)";
+            this.button_caramelh.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_caramelh.UseVisualStyleBackColor = false;
             this.button_caramelh.Click += new System.EventHandler(this.button_caramelh_Click);
             // 
@@ -413,12 +432,14 @@
             this.button_Cafelattei.BackColor = System.Drawing.Color.Gray;
             this.button_Cafelattei.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Cafelattei.ForeColor = System.Drawing.Color.White;
+            this.button_Cafelattei.Image = global::WindowsFormsApp1.Properties.Resources.카페라떼;
             this.button_Cafelattei.Location = new System.Drawing.Point(109, 185);
             this.button_Cafelattei.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Cafelattei.Name = "button_Cafelattei";
             this.button_Cafelattei.Size = new System.Drawing.Size(95, 80);
             this.button_Cafelattei.TabIndex = 0;
             this.button_Cafelattei.Text = "카페라떼\r\n(ICE)\r\n";
+            this.button_Cafelattei.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Cafelattei.UseVisualStyleBackColor = false;
             this.button_Cafelattei.Click += new System.EventHandler(this.button_Cafelattei_Click);
             // 
@@ -445,12 +466,14 @@
             this.button_Muffin.BackColor = System.Drawing.Color.Gray;
             this.button_Muffin.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Muffin.ForeColor = System.Drawing.Color.White;
+            this.button_Muffin.Image = global::WindowsFormsApp1.Properties.Resources.머핀;
             this.button_Muffin.Location = new System.Drawing.Point(107, 96);
             this.button_Muffin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Muffin.Name = "button_Muffin";
             this.button_Muffin.Size = new System.Drawing.Size(95, 80);
             this.button_Muffin.TabIndex = 21;
             this.button_Muffin.Text = "머핀\r\n";
+            this.button_Muffin.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Muffin.UseVisualStyleBackColor = false;
             this.button_Muffin.Click += new System.EventHandler(this.button_Muffin_Click);
             // 
@@ -459,12 +482,14 @@
             this.button_Chococake.BackColor = System.Drawing.Color.Gray;
             this.button_Chococake.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Chococake.ForeColor = System.Drawing.Color.White;
+            this.button_Chococake.Image = global::WindowsFormsApp1.Properties.Resources.초코케익;
             this.button_Chococake.Location = new System.Drawing.Point(5, 11);
             this.button_Chococake.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Chococake.Name = "button_Chococake";
             this.button_Chococake.Size = new System.Drawing.Size(95, 80);
             this.button_Chococake.TabIndex = 6;
             this.button_Chococake.Text = "조각 케익\r\n(초코)";
+            this.button_Chococake.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Chococake.UseVisualStyleBackColor = false;
             this.button_Chococake.Click += new System.EventHandler(this.button_Chococake_Click);
             // 
@@ -473,12 +498,14 @@
             this.button_Waffle.BackColor = System.Drawing.Color.Gray;
             this.button_Waffle.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Waffle.ForeColor = System.Drawing.Color.White;
+            this.button_Waffle.Image = global::WindowsFormsApp1.Properties.Resources.와프르를;
             this.button_Waffle.Location = new System.Drawing.Point(5, 183);
             this.button_Waffle.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Waffle.Name = "button_Waffle";
             this.button_Waffle.Size = new System.Drawing.Size(95, 80);
             this.button_Waffle.TabIndex = 7;
             this.button_Waffle.Text = "와플\n";
+            this.button_Waffle.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Waffle.UseVisualStyleBackColor = false;
             this.button_Waffle.Click += new System.EventHandler(this.button_Waffle_Click);
             // 
@@ -487,12 +514,14 @@
             this.button_Brownie.BackColor = System.Drawing.Color.Gray;
             this.button_Brownie.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Brownie.ForeColor = System.Drawing.Color.White;
+            this.button_Brownie.Image = global::WindowsFormsApp1.Properties.Resources.브으라우니;
             this.button_Brownie.Location = new System.Drawing.Point(209, 11);
             this.button_Brownie.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Brownie.Name = "button_Brownie";
             this.button_Brownie.Size = new System.Drawing.Size(95, 80);
             this.button_Brownie.TabIndex = 9;
             this.button_Brownie.Text = "브라우니";
+            this.button_Brownie.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Brownie.UseVisualStyleBackColor = false;
             this.button_Brownie.Click += new System.EventHandler(this.button_Brownie_Click);
             // 
@@ -501,12 +530,14 @@
             this.button_Bagel.BackColor = System.Drawing.Color.Gray;
             this.button_Bagel.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Bagel.ForeColor = System.Drawing.Color.White;
+            this.button_Bagel.Image = global::WindowsFormsApp1.Properties.Resources.베이글;
             this.button_Bagel.Location = new System.Drawing.Point(209, 96);
             this.button_Bagel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Bagel.Name = "button_Bagel";
             this.button_Bagel.Size = new System.Drawing.Size(95, 80);
             this.button_Bagel.TabIndex = 10;
             this.button_Bagel.Text = "베이글";
+            this.button_Bagel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Bagel.UseVisualStyleBackColor = false;
             this.button_Bagel.Click += new System.EventHandler(this.button_Bagel_Click);
             // 
@@ -515,12 +546,14 @@
             this.button_Cheezecake.BackColor = System.Drawing.Color.Gray;
             this.button_Cheezecake.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Cheezecake.ForeColor = System.Drawing.Color.White;
+            this.button_Cheezecake.Image = global::WindowsFormsApp1.Properties.Resources.치즈케익;
             this.button_Cheezecake.Location = new System.Drawing.Point(107, 11);
             this.button_Cheezecake.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Cheezecake.Name = "button_Cheezecake";
             this.button_Cheezecake.Size = new System.Drawing.Size(95, 80);
             this.button_Cheezecake.TabIndex = 13;
             this.button_Cheezecake.Text = "조각 케익\r\n(치즈)";
+            this.button_Cheezecake.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Cheezecake.UseVisualStyleBackColor = false;
             this.button_Cheezecake.Click += new System.EventHandler(this.button_Cheezecake_Click);
             // 
@@ -529,12 +562,14 @@
             this.button_Tiramisu.BackColor = System.Drawing.Color.Gray;
             this.button_Tiramisu.Font = new System.Drawing.Font("휴먼엑스포", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.button_Tiramisu.ForeColor = System.Drawing.Color.White;
+            this.button_Tiramisu.Image = global::WindowsFormsApp1.Properties.Resources.티라미슈;
             this.button_Tiramisu.Location = new System.Drawing.Point(5, 96);
             this.button_Tiramisu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_Tiramisu.Name = "button_Tiramisu";
             this.button_Tiramisu.Size = new System.Drawing.Size(95, 80);
             this.button_Tiramisu.TabIndex = 14;
             this.button_Tiramisu.Text = "티라미슈";
+            this.button_Tiramisu.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.button_Tiramisu.UseVisualStyleBackColor = false;
             this.button_Tiramisu.Click += new System.EventHandler(this.button_Tiramisu_Click);
             // 
@@ -657,7 +692,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(58, 15);
             this.label6.TabIndex = 23;
-            this.label6.Text = "받을 금액";
+            this.label6.Text = "결제 금액";
             // 
             // textBox_sumnumber
             // 
@@ -1379,7 +1414,8 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Main_Form";
-            this.Text = "카페 포스기 프로그램";
+            this.Text = "카페 키오스크 프로그램";
+            this.Load += new System.EventHandler(this.Main_Form_Load);
             this.groupBox_order.ResumeLayout(false);
             this.groupBox_order.PerformLayout();
             this.tabControl1.ResumeLayout(false);

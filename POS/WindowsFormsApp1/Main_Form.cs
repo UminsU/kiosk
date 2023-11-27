@@ -2015,6 +2015,16 @@ namespace WindowsFormsApp1
 
         }
 
+        private void Main_Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox_order_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         private void monthCalendar1_DateSelected(object sender, DateRangeEventArgs e) // 달력 날짜 클릭하면 해당 날짜 텍스트 박스에 뛰우는 이벤트
         {
             DateTime date = monthCalendar1.SelectionStart; // data에 달력 시작 날짜를 넣음
